@@ -1,5 +1,5 @@
 baseURL = "https://tongdongchang.github.io/MyPage/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
