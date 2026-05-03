@@ -19,4 +19,4 @@ In this workshop, you will work with two main environments:
 
 To minimise costs, the workshop leverages the **AWS Free Tier**, using only a single t2.micro EC2 instance and other free services. When planning for production, AWS recommends using multiple AZs and managed services (like RDS, Elastic Beanstalk) to ensure high availability.
 
-![overview](images/5-Workshop/5.1-Workshop-overview/flow.png)
+![overview](images/5-workshop/5.1-workshop-overview/flow.png)
