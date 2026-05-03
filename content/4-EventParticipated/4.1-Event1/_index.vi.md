@@ -1,87 +1,87 @@
 ---
-title: "Event 1"
+title: "Sự kiện 1"
 date: 2026-05-02
 weight: 4
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
 
-### Event Purpose
-- Introduce modern **Platform Engineering** trends and career pathways.
-- Present methods and tools for **DevOps for Generative AI (GenAIOps)** on AWS.
-- Share experiences in deploying **multimodal GenAI** at production scale.
-- Explore how to leverage **Amazon CloudFront** as a foundation for any workload, from edge to origin.
+### Mục đích sự kiện
+- Giới thiệu các xu hướng **Platform Engineering** hiện đại và lộ trình nghề nghiệp.
+- Trình bày phương pháp và công cụ **DevOps cho Generative AI (GenAIOps)** trên AWS.
+- Chia sẻ kinh nghiệm triển khai **GenAI đa phương thức** ở quy mô production.
+- Khám phá cách tận dụng **Amazon CloudFront** làm nền tảng cho mọi loại workload, từ edge tới origin.
 
-### Speaker List
-The event featured a number of experts from AWS and the tech community, including:
-- **Mr. Phuc Dang** – Engineering Manager, GotymeX
-- **Mr. Phap Nguyen** – Cloud Engineer, VPBank
-- **Mr. Trinh Nguyen** – DevOps Engineer, FCAJ
-- Additional guests from the AWS ecosystem.
+### Danh sách diễn giả
+Sự kiện quy tụ nhiều chuyên gia từ AWS và cộng đồng công nghệ, bao gồm:
+- **Ông Phúc Đặng** – Engineering Manager, GotymeX
+- **Ông Pháp Nguyễn** – Cloud Engineer, VPBank
+- **Ông Trình Nguyễn** – DevOps Engineer, FCAJ
+- Cùng các khách mời khác từ hệ sinh thái AWS.
 
-### Highlights
-The morning event was divided into five main sessions:
+### Nội dung nổi bật
+Sự kiện buổi sáng được chia thành năm phiên chính:
 
-**1. Building Modern Platform Engineering & Career Pathways (09:00 – 09:45)**
-- Explored company culture, internship opportunities, and how to interact with speakers via a Q&A platform.
-- Introduced Platform Engineering – the bridge between development and operations that increases release velocity and system reliability.
-- Outlined a career path: Software Engineer → Platform Engineer → Architect.
+**1. Xây dựng Platform Engineering hiện đại và lộ trình nghề nghiệp (09:00 – 09:45)**
+- Khám phá văn hóa công ty, cơ hội thực tập và cách tương tác với diễn giả qua nền tảng Q&A.
+- Giới thiệu Platform Engineering – cầu nối giữa phát triển và vận hành, giúp tăng tốc độ phát hành và độ tin cậy của hệ thống.
+- Vạch ra lộ trình nghề nghiệp: Kỹ sư phần mềm → Kỹ sư Platform → Kiến trúc sư.
 
-**2. GenAIOps Essential – DevOps for Generative AI Applications (09:45 – 10:15)**
-- Reviewed core DevOps principles on AWS and associated learning resources.
-- Presented real‑world GenAIOps patterns: using Amazon Bedrock, AgentCore Observability, EKS, and Langfuse to observe and manage the lifecycle of GenAI applications.
+**2. GenAIOps thiết yếu – DevOps cho ứng dụng Generative AI (09:45 – 10:15)**
+- Ôn lại các nguyên tắc DevOps cốt lõi trên AWS và các tài nguyên học tập liên quan.
+- Trình bày các mô hình GenAIOps thực tế: sử dụng Amazon Bedrock, AgentCore Observability, EKS và Langfuse để quan sát và quản lý vòng đời của ứng dụng GenAI.
 
-**3. Shipping Code in the Agentic Era (10:15 – 10:45)**
-- Discussed “how to ship code quickly and safely in the age of AI agents”.
-- Introduced tooling: AI code review, autonomous testing, self‑healing pipelines.
-- Live demo of a CI/CD pipeline integrated with an AI agent.
+**3. Vận chuyển mã nguồn trong kỷ nguyên Agentic (10:15 – 10:45)**
+- Thảo luận về “làm thế nào để vận chuyển mã nguồn nhanh chóng và an toàn trong thời đại của các tác tử AI”.
+- Giới thiệu các công cụ: đánh giá mã bằng AI, kiểm thử tự động, pipeline tự phục hồi.
+- Demo trực tiếp quy trình CI/CD được tích hợp với một tác tử AI.
 
-**4. Production‑Grade Multimodal GenAI on AWS (11:00 – 11:30)**
-- Presented the new AI application stack: multimodal search with Nova Embeddings, GraphRAG for enterprise knowledge.
-- Multi‑agent workflow architectures that coordinate complex tasks.
-- Ensuring safety and observability for GenAI in production.
+**4. GenAI đa phương thức cấp production trên AWS (11:00 – 11:30)**
+- Trình bày ngăn xếp ứng dụng AI mới: tìm kiếm đa phương thức với Nova Embeddings, GraphRAG cho tri thức doanh nghiệp.
+- Kiến trúc quy trình đa tác tử (multi‑agent) phối hợp các tác vụ phức tạp.
+- Đảm bảo an toàn và khả năng quan sát (observability) cho GenAI trên production.
 
-**5. From Edge To Origin: CloudFront as Your Foundation (11:30 – 12:00)**
-- Showed how Amazon CloudFront can serve as a foundation for all types of workloads, not just CDN.
-- Cost‑optimization strategies: caching, compression, region selection.
-- Security features: WAF, Shield, OAC; improving reliability and performance.
+**5. Từ Edge tới Origin: CloudFront làm nền tảng (11:30 – 12:00)**
+- Cho thấy Amazon CloudFront có thể làm nền tảng cho mọi loại workload, không chỉ là CDN.
+- Chiến lược tối ưu chi phí: caching, nén, lựa chọn region.
+- Các tính năng bảo mật: WAF, Shield, OAC; cải thiện độ tin cậy và hiệu năng.
 
-### What I Learned
-**Platform mindset**
-- Platform Engineering is not just about tools – it’s a culture of shared responsibility between Dev and Ops.
-- An Internal Developer Platform (IDP) reduces cognitive load for developers, letting them focus on code.
+### Những gì tôi học được
+**Tư duy nền tảng**
+- Platform Engineering không chỉ là công cụ – đó là văn hóa chia sẻ trách nhiệm giữa Dev và Ops.
+- Internal Developer Platform (IDP) giúp giảm tải nhận thức cho lập trình viên, cho phép họ tập trung vào code.
 
-**DevOps for AI**
-- GenAIOps extends traditional DevOps principles: it requires tracking model output quality, managing prompts, and controlling inference costs.
-- Tools like Langfuse and Bedrock Agents enable observability and automation.
+**DevOps cho AI**
+- GenAIOps mở rộng các nguyên tắc DevOps truyền thống: cần theo dõi chất lượng đầu ra của mô hình, quản lý prompt và kiểm soát chi phí suy luận.
+- Các công cụ như Langfuse và Bedrock Agents cho phép quan sát và tự động hóa.
 
-**Agentic trend**
-- AI agents are no longer just chatbots – they can plan, use tools, and call APIs to accomplish goals.
-- Pipelines must be designed with automated rollback and human approval at critical steps.
+**Xu hướng Agentic**
+- Các tác tử AI không còn chỉ là chatbot – chúng có thể lập kế hoạch, sử dụng công cụ và gọi API để hoàn thành mục tiêu.
+- Pipeline phải được thiết kế với khả năng rollback tự động và có sự phê duyệt của con người ở các bước quan trọng.
 
-**Multimodal GenAI architecture**
-- Multimodal search (text, images, audio) enriches user experience.
-- GraphRAG improves accuracy by combining knowledge graphs with retrieval.
+**Kiến trúc GenAI đa phương thức**
+- Tìm kiếm đa phương thức (văn bản, hình ảnh, âm thanh) làm phong phú trải nghiệm người dùng.
+- GraphRAG cải thiện độ chính xác bằng cách kết hợp đồ thị tri thức với truy xuất.
 
-**CloudFront beyond CDN**
-- CloudFront can act as a reverse proxy, protect origins, and reduce backend load.
-- Edge computing (Lambda@Edge, CloudFront Functions) allows logic to run at the edge.
+**CloudFront vượt ra ngoài CDN**
+- CloudFront có thể hoạt động như reverse proxy, bảo vệ origin và giảm tải cho backend.
+- Edge computing (Lambda@Edge, CloudFront Functions) cho phép chạy logic ngay tại edge.
 
-### Application to my work
-- **Music streaming project**: Applied CloudFront as a CDN for the React frontend and as a reverse proxy for the Django backend, improving load speed and security.
-- **DevOps**: Integrate GenAIOps practices into future AI features (e.g., ML‑based song recommendations).
-- **Platform Engineering**: Create internal development environments with CloudFormation templates so the team can quickly reproduce infrastructure.
-- **Learning**: Use Langfuse to observe experimental GenAI models, gaining a deeper understanding of observability.
+### Ứng dụng vào công việc của tôi
+- **Dự án website nghe nhạc**: Áp dụng CloudFront làm CDN cho frontend React và reverse proxy cho backend Django, cải thiện tốc độ tải và bảo mật.
+- **DevOps**: Tích hợp thực hành GenAIOps vào các tính năng AI tương lai (ví dụ: gợi ý bài hát bằng machine learning).
+- **Platform Engineering**: Tạo môi trường phát triển nội bộ với các template CloudFormation để nhóm có thể nhanh chóng tái tạo cơ sở hạ tầng.
+- **Học tập**: Sử dụng Langfuse để quan sát các mô hình GenAI thử nghiệm, hiểu sâu hơn về khả năng quan sát.
 
-### Event experience
-The event took place in an open and highly interactive atmosphere. The Q&A session allowed me to ask experts directly about career paths and how to get started with Platform Engineering.
+### Trải nghiệm sự kiện
+Sự kiện diễn ra trong không khí cởi mở và tương tác cao. Phiên Q&A cho phép tôi hỏi trực tiếp các chuyên gia về lộ trình nghề nghiệp và cách bắt đầu với Platform Engineering.
 
-The live demos – especially “Shipping Code in the Agentic Era” – gave me a clear picture of how an AI agent can automatically review code and suggest improvements right inside a pull request.
+Các bản demo trực tiếp – đặc biệt là “Shipping Code in the Agentic Era” – đã cho tôi hình dung rõ ràng về cách một tác tử AI có thể tự động xem xét mã và đề xuất cải tiến ngay trong một pull request.
 
-I was particularly impressed by the CloudFront talk: before, I thought of CloudFront only as a CDN, but now I understand it can serve as a foundation for security, cost optimization, and even edge computing.
+Tôi đặc biệt ấn tượng với bài nói về CloudFront: trước đây tôi chỉ nghĩ CloudFront đơn thuần là CDN, nhưng giờ tôi hiểu nó có thể làm nền tảng cho bảo mật, tối ưu chi phí và cả edge computing.
 
-### Key takeaways
-- **Always start from the user’s needs**: Whether it’s GenAI or Platform Engineering, all solutions must solve real business problems.
-- **Phased approach**: Don’t adopt every new technology at once. Build a roadmap, run pilots first, then expand.
-- **Invest in observability**: Especially for GenAI systems, monitoring and measuring output quality is crucial.
-- **Leverage managed services**: AWS offers many services that reduce operational burden and allow teams to focus on business logic.
+### Bài học rút ra
+- **Luôn bắt đầu từ nhu cầu người dùng**: Dù là GenAI hay Platform Engineering, mọi giải pháp phải giải quyết vấn đề kinh doanh thực tế.
+- **Tiếp cận theo từng giai đoạn**: Đừng áp dụng mọi công nghệ mới cùng một lúc. Xây dựng lộ trình, chạy thử nghiệm (pilot) trước, sau đó mở rộng.
+- **Đầu tư vào khả năng quan sát**: Đặc biệt với các hệ thống GenAI, việc giám sát và đo lường chất lượng đầu ra là rất quan trọng.
+- **Tận dụng dịch vụ được quản lý**: AWS cung cấp nhiều dịch vụ giúp giảm gánh nặng vận hành và cho phép các nhóm tập trung vào logic nghiệp vụ.

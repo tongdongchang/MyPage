@@ -1,4 +1,4 @@
-baseURL = "https://tongdongchang.github.io/MyPage/"
+baseURL = "http://localhost:1313/MyPage/"
 relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"

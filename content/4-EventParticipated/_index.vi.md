@@ -3,7 +3,7 @@ title: "Các events đã tham gia"
 date: 2024-01-01
 weight: 4
 chapter: false
-pre: " <b> 3. </b> "
+pre: " <b> 3.1 </b> "
 ---
 
 > Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 

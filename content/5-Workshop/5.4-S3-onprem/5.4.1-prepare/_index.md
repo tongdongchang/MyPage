@@ -156,4 +156,4 @@ DRF Browsable API
 
 Postman
 
-![api](images/5-Workshop/5.4-S3-onprem/api.png)
+![api](/MyPage/images/5-Workshop/5.4-S3-onprem/api.png)

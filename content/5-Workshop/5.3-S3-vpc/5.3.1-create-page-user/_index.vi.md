@@ -124,14 +124,14 @@ Trang xem MV, nhúng `react-player`, hiển thị thông tin và MV liên quan.
 
 Sau khi hoàn thành, giao diện người dùng hoạt động đầy đủ với dữ liệu mock. Hình ảnh tham khảo:
 Giao diện trang chủ
-![Trang chủ với Slider và danh sách](/images/5-Workshop/5.3-S3-vpc/anhmh.png)
+![Trang chủ với Slider và danh sách](/MyPage/images/5-Workshop/5.3-S3-vpc/anhmh.png)
 Giao diện trang album
-![Album](/images/5-Workshop/5.3-S3-vpc/album.png)
+![Album](/MyPage/images/5-Workshop/5.3-S3-vpc/album.png)
 Giao diện phát MV
-![mv](/images/5-Workshop/5.3-S3-vpc/mv.png)
+![mv](/MyPage/images/5-Workshop/5.3-S3-vpc/mv.png)
 Giao diện playlist của user
-![playlist](/images/5-Workshop/5.3-S3-vpc/playlist.png)
+![playlist](/MyPage/images/5-Workshop/5.3-S3-vpc/playlist.png)
 Giao diện đăng nhập
-![playlist](/images/5-Workshop/5.3-S3-vpc/login.png)
+![playlist](/MyPage/images/5-Workshop/5.3-S3-vpc/login.png)
 Giao diện đăng ký 
-![playlist](/images/5-Workshop/5.3-S3-vpc/dangky.png)
+![playlist](/MyPage/images/5-Workshop/5.3-S3-vpc/dangky.png)

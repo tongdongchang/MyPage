@@ -177,7 +177,7 @@ Start the server:
 
 bash
 python manage.py runserver 0.0.0.0:8000
-![ec2](images/5-Workshop/5.5-Policy/ec2.png)
+![ec2](/MyPage/images/5-Workshop/5.5-Policy/ec2.png)
 Image: Terminal showing Django runserver running on EC2.
 
 

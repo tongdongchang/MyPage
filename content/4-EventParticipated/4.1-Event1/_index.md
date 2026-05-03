@@ -1,123 +1,87 @@
 ---
 title: "Event 1"
-date: 2024-01-01
-weight: 1
+date: 2026-05-02
+weight: 4
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
+### Event Purpose
+- Introduce modern **Platform Engineering** trends and career pathways.
+- Present methods and tools for **DevOps for Generative AI (GenAIOps)** on AWS.
+- Share experiences in deploying **multimodal GenAI** at production scale.
+- Explore how to leverage **Amazon CloudFront** as a foundation for any workload, from edge to origin.
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+### Speaker List
+The event featured a number of experts from AWS and the tech community, including:
+- **Mr. Phuc Dang** – Engineering Manager, GotymeX
+- **Mr. Phap Nguyen** – Cloud Engineer, VPBank
+- **Mr. Trinh Nguyen** – DevOps Engineer, FCAJ
+- Additional guests from the AWS ecosystem.
 
-### Event Objectives
+### Highlights
+The morning event was divided into five main sessions:
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+**1. Building Modern Platform Engineering & Career Pathways (09:00 – 09:45)**
+- Explored company culture, internship opportunities, and how to interact with speakers via a Q&A platform.
+- Introduced Platform Engineering – the bridge between development and operations that increases release velocity and system reliability.
+- Outlined a career path: Software Engineer → Platform Engineer → Architect.
 
-### Speakers
+**2. GenAIOps Essential – DevOps for Generative AI Applications (09:45 – 10:15)**
+- Reviewed core DevOps principles on AWS and associated learning resources.
+- Presented real‑world GenAIOps patterns: using Amazon Bedrock, AgentCore Observability, EKS, and Langfuse to observe and manage the lifecycle of GenAI applications.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+**3. Shipping Code in the Agentic Era (10:15 – 10:45)**
+- Discussed “how to ship code quickly and safely in the age of AI agents”.
+- Introduced tooling: AI code review, autonomous testing, self‑healing pipelines.
+- Live demo of a CI/CD pipeline integrated with an AI agent.
 
-### Key Highlights
+**4. Production‑Grade Multimodal GenAI on AWS (11:00 – 11:30)**
+- Presented the new AI application stack: multimodal search with Nova Embeddings, GraphRAG for enterprise knowledge.
+- Multi‑agent workflow architectures that coordinate complex tasks.
+- Ensuring safety and observability for GenAI in production.
 
-#### Identifying the drawbacks of legacy application architecture
+**5. From Edge To Origin: CloudFront as Your Foundation (11:30 – 12:00)**
+- Showed how Amazon CloudFront can serve as a foundation for all types of workloads, not just CDN.
+- Cost‑optimization strategies: caching, compression, region selection.
+- Security features: WAF, Shield, OAC; improving reliability and performance.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### What I Learned
+**Platform mindset**
+- Platform Engineering is not just about tools – it’s a culture of shared responsibility between Dev and Ops.
+- An Internal Developer Platform (IDP) reduces cognitive load for developers, letting them focus on code.
 
-#### Transitioning to modern application architecture – Microservices
+**DevOps for AI**
+- GenAIOps extends traditional DevOps principles: it requires tracking model output quality, managing prompts, and controlling inference costs.
+- Tools like Langfuse and Bedrock Agents enable observability and automation.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+**Agentic trend**
+- AI agents are no longer just chatbots – they can plan, use tools, and call APIs to accomplish goals.
+- Pipelines must be designed with automated rollback and human approval at critical steps.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+**Multimodal GenAI architecture**
+- Multimodal search (text, images, audio) enriches user experience.
+- GraphRAG improves accuracy by combining knowledge graphs with retrieval.
 
-#### Domain-Driven Design (DDD)
+**CloudFront beyond CDN**
+- CloudFront can act as a reverse proxy, protect origins, and reduce backend load.
+- Edge computing (Lambda@Edge, CloudFront Functions) allows logic to run at the edge.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+### Application to my work
+- **Music streaming project**: Applied CloudFront as a CDN for the React frontend and as a reverse proxy for the Django backend, improving load speed and security.
+- **DevOps**: Integrate GenAIOps practices into future AI features (e.g., ML‑based song recommendations).
+- **Platform Engineering**: Create internal development environments with CloudFormation templates so the team can quickly reproduce infrastructure.
+- **Learning**: Use Langfuse to observe experimental GenAI models, gaining a deeper understanding of observability.
 
-#### Event-Driven Architecture
+### Event experience
+The event took place in an open and highly interactive atmosphere. The Q&A session allowed me to ask experts directly about career paths and how to get started with Platform Engineering.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+The live demos – especially “Shipping Code in the Agentic Era” – gave me a clear picture of how an AI agent can automatically review code and suggest improvements right inside a pull request.
 
-#### Compute Evolution
+I was particularly impressed by the CloudFront talk: before, I thought of CloudFront only as a CDN, but now I understand it can serve as a foundation for security, cost optimization, and even edge computing.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
-
-### Key Takeaways
-
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
-
-#### Modernization Strategy
-
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+### Key takeaways
+- **Always start from the user’s needs**: Whether it’s GenAI or Platform Engineering, all solutions must solve real business problems.
+- **Phased approach**: Don’t adopt every new technology at once. Build a roadmap, run pilots first, then expand.
+- **Invest in observability**: Especially for GenAI systems, monitoring and measuring output quality is crucial.
+- **Leverage managed services**: AWS offers many services that reduce operational burden and allow teams to focus on business logic.

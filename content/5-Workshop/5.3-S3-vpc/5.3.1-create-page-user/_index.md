@@ -107,19 +107,19 @@ A page for watching music videos, embedding react-player, and showing video info
 After completion, the user interface is fully functional with mock data. Reference screenshots:
 
 Homepage interface
-![Homepage interface](/images/5-Workshop/5.3-S3-vpc/anhmh.png)
+![Homepage interface](/MyPage/images/5-Workshop/5.3-S3-vpc/anhmh.png)
 
 Album page interface
-![Album page interface](/images/5-Workshop/5.3-S3-vpc/album.png)
+![Album page interface](/MyPage/images/5-Workshop/5.3-S3-vpc/album.png)
 
 MV playback interface
-![MV playback interface](/images/5-Workshop/5.3-S3-vpc/mv.png)
+![MV playback interface](/MyPage/images/5-Workshop/5.3-S3-vpc/mv.png)
 
 User playlist interface
-![User playlist interface](/images/5-Workshop/5.3-S3-vpc/playlist.png)
+![User playlist interface](/MyPage/images/5-Workshop/5.3-S3-vpc/playlist.png)
 
 Login interface
-![Login interface](/images/5-Workshop/5.3-S3-vpc/login.png)
+![Login interface](/MyPage/images/5-Workshop/5.3-S3-vpc/login.png)
 
 Registration interface
-![Registration interface](/images/5-Workshop/5.3-S3-vpc/dangky.png)
+![Registration interface](/MyPage/images/5-Workshop/5.3-S3-vpc/dangky.png)

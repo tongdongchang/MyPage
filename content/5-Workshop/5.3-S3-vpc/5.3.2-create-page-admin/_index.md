@@ -14,7 +14,7 @@ Build the Admin Panel to control all data of the music streaming website. The in
 ---
 
 ### 1. Admin folder structure
-
+```
 Files are organized in the `src/admin/` directory as follows:
 src/admin/
 ├── Admin.jsx # Admin layout (sidebar + content)
@@ -26,7 +26,7 @@ src/admin/
 └── Users.jsx # User management
 
 text
-
+```
 All are imported and used within the React Router route tree.
 
 ---
@@ -79,7 +79,7 @@ An Edit button (opens modal pre‑filled with data)
 
 A Delete button with confirmation (Popconfirm)
 
-![track](images/5-Workshop/5.3-S3-vpc/track.png)
+![track](/MyPage/images/5-Workshop/5.3-S3-vpc/track.png)
 
 
 #### 3.2. Album management (Album.jsx)
@@ -102,7 +102,7 @@ Upload cover image
 After creating a new album, you can navigate to DetailAlbum to add songs.
 
 The Delete button shows a warning if the album still contains songs.
-![track album](images/5-Workshop/5.3-S3-vpc/albumadmin.png)
+![track album](/MyPage/images/5-Workshop/5.3-S3-vpc/albumadmin.png)
 
 #### 3.3. Album detail (DetailAlbum.jsx)
 Receives the album id from the URL.
@@ -127,7 +127,7 @@ Transfer
 
 Or 2 tables + add/remove buttons
 
-![track albumdetail](images/5-Workshop/5.3-S3-vpc/detailablum.png)
+![track albumdetail](/MyPage/images/5-Workshop/5.3-S3-vpc/detailablum.png)
 
 #### 3.4. Artist management (Artists.jsx)
 List table:
@@ -145,7 +145,7 @@ Enter name, bio
 Upload image
 
 The Delete button has a confirmation. When deleting, constraints with albums/songs should be checked.
-![artist](images/5-Workshop/5.3-S3-vpc/artist.png)
+![artist](/MyPage/images/5-Workshop/5.3-S3-vpc/artist.png)
 
 #### 3.5. User management (Users.jsx)
 List table:
@@ -166,7 +166,7 @@ Lock/Unlock account
 
 Delete user (with confirmation)
 
-![user](images/5-Workshop/5.3.2-admin-frontend/admin-users.png)
+![user](/MyPage/images/5-Workshop/5.3.2-admin-frontend/admin-users.png)
 
 ### 4. Protecting the Admin route
 To prevent regular users from accessing, wrap the admin route with a permission‑checking component:

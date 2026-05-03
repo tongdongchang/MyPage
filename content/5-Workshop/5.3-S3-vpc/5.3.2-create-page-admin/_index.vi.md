@@ -3,7 +3,7 @@ title : "Xây dựng giao diện quản trị"
 date : 2026-05-01
 weight : 2
 chapter : false
-pre : " <b> 5.3.2. </b> "
+pre : " <b> 4.3.2. </b> "
 ---
 
 
@@ -14,7 +14,7 @@ Xây dựng giao diện quản trị (Admin Panel) để kiểm soát toàn bộ
 ---
 
 #### 1. Cấu trúc thư mục Admin
-
+```
 Các file được tổ chức trong thư mục `src/admin/` như sau:
 src/admin/
 ├── Admin.jsx # Layout quản trị (sidebar + nội dung)
@@ -24,7 +24,7 @@ src/admin/
 ├── SliderAdmin.jsx # Sidebar điều hướng
 ├── Track.jsx # Quản lý bài hát (audio)
 └── Users.jsx # Quản lý người dùng
-
+```
 text
 
 Tất cả đều được import và sử dụng trong cây route của React Router.
@@ -78,7 +78,7 @@ Mỗi dòng có:
 * Nút **Sửa** (mở modal với dữ liệu đã điền sẵn)
 * Nút **Xóa** kèm xác nhận (Popconfirm)
 
-![Giao diện quản lý bài hát](images/5-Workshop/5.3-S3-vpc/track.png)   
+![Giao diện quản lý bài hát](/MyPage/images/5-Workshop/5.3-S3-vpc/track.png)   
 
 ---
 
@@ -99,7 +99,7 @@ Thêm/Sửa album thông qua Modal:
 Sau khi tạo mới, có thể chuyển sang **DetailAlbum** để thêm bài hát.
 
 Nút Xóa album sẽ hiển thị cảnh báo nếu album đang chứa bài hát.
-![Giao diện quản lý album](images/5-Workshop/5.3-S3-vpc/albumadmin.png)   
+![Giao diện quản lý album](/MyPage/images/5-Workshop/5.3-S3-vpc/albumadmin.png)   
 
 ---
 
@@ -123,7 +123,7 @@ Có thể dùng:
 * `Transfer`
 * Hoặc 2 bảng + nút thêm/gỡ
 
-![Chi tiết album](images/5-Workshop/5.3-S3-vpc/detailablum.png)
+![Chi tiết album](/MyPage/images/5-Workshop/5.3-S3-vpc/detailablum.png)
 
 ---
 
@@ -141,7 +141,7 @@ Modal thêm/sửa:
 * Upload ảnh
 
 Nút Xóa có xác nhận. Khi xóa cần kiểm tra ràng buộc với album/bài hát.
-![Quản lý nghệ sĩ](images/5-Workshop/5.3-S3-vpc/artist.png)
+![Quản lý nghệ sĩ](/MyPage/images/5-Workshop/5.3-S3-vpc/artist.png)
 
 ---
 
@@ -160,7 +160,7 @@ Chức năng:
 * Khóa/Mở khóa tài khoản
 * Xóa người dùng (có xác nhận)
 
-![Quản lý người dùng](images/5-Workshop/5.3.2-admin-frontend/admin-users.png)
+![Quản lý người dùng](/MyPage/images/5-Workshop/5.3.2-admin-frontend/admin-users.png)
 
 ---
 
