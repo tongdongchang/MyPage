@@ -29,7 +29,7 @@ To avoid using the root account, we will create a dedicated IAM user for deploym
 4. Complete the process and download the `.csv` file containing the Access Key ID and Secret Access Key.
 
 You will use these credentials to configure the AWS CLI on your local machine (or EC2) via `aws configure`.
-![IAM](/images/5-Workshop/5.5-Policy/iam.png)
+![IAM](images/5-Workshop/5.5-Policy/iam.png)
 
 ---
 
@@ -91,7 +91,7 @@ bash
 aws s3 cp dist/ s3://music-app-frontend/ --recursive
 After uploading, visit the endpoint provided in the Static website hosting section (e.g., http://www.myprojectawsfcaj.live.s3-website-ap-southeast-1.amazonaws.com) to see the React interface running.
 
-![s3](/images/5-Workshop/5.5-Policy/s3.png)
+![s3](images/5-Workshop/5.5-Policy/s3.png)
 Image: React homepage displayed from the S3 bucket.
 
 
@@ -177,7 +177,7 @@ Start the server:
 
 bash
 python manage.py runserver 0.0.0.0:8000
-![ec2](/images/5-Workshop/5.5-Policy/ec2.png)
+![ec2](images/5-Workshop/5.5-Policy/ec2.png)
 Image: Terminal showing Django runserver running on EC2.
 
 

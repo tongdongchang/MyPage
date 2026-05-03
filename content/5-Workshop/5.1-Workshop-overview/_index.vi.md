@@ -19,4 +19,4 @@ Trong workshop này, bạn sẽ làm việc với hai môi trường chính:
 
 Để giảm thiểu chi phí, workshop tận dụng **AWS Free Tier**, chỉ sử dụng một EC2 instance t2.micro và các dịch vụ miễn phí khác. Khi lập kế hoạch cho production, AWS khuyến nghị sử dụng nhiều AZ và dịch vụ quản lý (như RDS, Elastic Beanstalk) để đảm bảo tính sẵn sàng cao.
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/flow.png)
+![overview](images/5-Workshop/5.1-Workshop-overview/flow.png)

@@ -30,7 +30,7 @@ Nhằm tránh sử dụng tài khoản root, chúng ta sẽ tạo một IAM user
 4. Hoàn tất, tải file `.csv` chứa Access Key ID và Secret Access Key.
 
 Bạn sẽ dùng thông tin này để cấu hình AWS CLI trên máy cá nhân (hoặc EC2) bằng `aws configure`.
-![IAM](/images/5-Workshop/5.5-Policy/iam.png)
+![IAM](images/5-Workshop/5.5-Policy/iam.png)
 
 ---
 
@@ -90,7 +90,7 @@ aws s3 cp dist/ s3://music-app-frontend/ --recursive
 Sau khi upload, truy cập vào endpoint được cung cấp trong phần Static website hosting (dạng http://music-app-frontend.s3-website-us-east-1.amazonaws.com) để thấy giao diện React chạy.
 
 Ảnh: Trang chủ React hiển thị từ S3 bucket.
-![React](/images/5-Workshop/5.5-Policy/s3.png)
+![React](images/5-Workshop/5.5-Policy/s3.png)
 #### 3. Triển khai backend lên EC2
 ##### 3.1. Tạo EC2 instance
 Vào EC2 console, chọn Launch Instance.
@@ -169,7 +169,7 @@ Khởi động server:
 bash
 python manage.py runserver 0.0.0.0:8000
 Ảnh: Terminal hiển thị Django runserver đang chạy trên EC2.
-![EC2](/images/5-Workshop/5.5-Policy/ec2.png)
+![EC2](images/5-Workshop/5.5-Policy/ec2.png)
 ### 4. Kết nối frontend và backend
 Trong source React, tạo file .env hoặc sửa trực tiếp biến API URL (ví dụ trong src/api.js) trỏ đến địa chỉ IP thực của EC2:
 

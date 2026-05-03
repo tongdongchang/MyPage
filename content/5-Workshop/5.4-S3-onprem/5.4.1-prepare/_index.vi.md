@@ -165,4 +165,4 @@ Sau khi chạy server, bạn có thể dùng:
 * Browsable API của DRF
 * Postman
 
-![Browsable API](/images/5-Workshop/5.4-S3-onprem/api.png)
+![Browsable API](images/5-Workshop/5.4-S3-onprem/api.png)
