@@ -28,7 +28,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 9/03/2026 to 3/05/2026
 
-![Ảnh]({{ "images/avatarme.jpg" | absURL }})
+![Ảnh đại diện](../images/avatarme.jpg)
 
 ### Report Content
 
